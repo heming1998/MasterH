@@ -1,0 +1,219 @@
+*{
+	padding: 0;
+	margin: 0!important;
+}
+body{
+	width: 100%!important;
+}
+li{
+	list-style: none;
+}
+.container {
+	width: 100%!important;
+}
+.header img{
+	vertical-align: middle;
+	width: 100%;
+}
+.header{
+	height: 180px;
+	margin-top: 50px!important;
+}
+.header img{
+	width: 100%;
+}
+.header-left{
+	width: 26%;
+	position: absolute;
+	left: 10%;
+}
+.header-left li{
+	display: inline-block;
+	padding: 2%;
+	width: calc(80% / 4);
+}
+.header p{
+	width: 7%;
+	position: absolute;
+	left: 47%;
+}
+.header-right{
+	width: 30%;
+	position: absolute;
+	right: 5% ;
+}
+.header-right li{
+	display: inline-block;
+	width:calc(98% / 9);
+	margin: 0 auto;  
+    height: 140px;  
+    writing-mode: vertical-lr; 
+    font-family: "宋体";
+}
+.header-right li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #337ab7;
+}
+
+.banner img{
+	width: 92%;
+}
+
+.count img{
+	width: 100%;
+}
+.count{
+	padding: 0 20%;
+	overflow: hidden;
+}
+.count .h3{
+	padding-top: 275px!important;
+	padding-bottom: 30px;
+}
+.count p{
+	line-height: 35px;
+}
+.count h3{
+	padding-top: 120px;
+}
+.count .right img{
+	width: 30%;
+	float: right;
+	margin-right: -20%;
+	padding-top: 100px;
+}
+.big-bottom{
+	text-align: left;
+	width: 88%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	margin-top: 70px;
+}
+.bottom{
+	padding: 0 5%;
+}
+.bottom .si{
+	width:100%;
+}
+.bottom .si .top{
+	padding-left: 1.7%;
+}
+.bottom .si .row div img{
+	width: 100%;
+}
+.bottom .si .row .four{
+	background: url(../img/b4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.bottom .si .row .four{
+	padding: 40px 20px;
+	margin-top: -30px;
+	text-align: center;
+}
+.bottom .alert {
+	padding: 0;
+}
+.bottom .alert h3{
+	font-size: 25px;
+	color: #666;
+	font-family: 楷体;
+	padding-left: 1.5%;
+}
+
+.bottom .alert .si .wenzi{
+	padding: 50px 0;
+}
+.bottom .alert .si .wenzi p{
+	line-height: 24px;
+	font-family: 宋体;
+	font-size: 13px;
+}
+.bottom .alert .si .wenzi .red a{
+	color:darkred ;
+}
+.bottom .alert .si .wenzi .red a:hover{
+	text-decoration: none;
+}
+.bottom .alert .si .wenzi .red:hover{
+	opacity: .5;
+	transition: all .5s ease;
+}
+.bottom .alert .si .wenzi .red em{
+     display:inline-block;
+    width:0;
+    height:0;
+    margin-right: 5px;
+    border-width:7px 0 7px 7px;
+    border-style:solid;
+    border-color:transparent transparent transparent darkred;
+}
+.bottom .alert .si .wenzi table td{
+	border: 1px solid #666;
+	padding:  8px 27px 8px 8px;
+	font-size: 10px;
+}
+.bottom .alert .si .wenzi table tr:first-child{
+	background: #ccc;
+}
+
+
+
+.bottom .er{
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.bottom .er img:hover{;
+	opacity: .5;
+	transition: all .6s ease;
+}
+.bottom .er img{
+	display: inline-block;
+	padding: 4%;
+	width: 15%;
+}
+
+ .three .row div:hover{
+ 	opacity: .5;
+ 	transition: all 1s ease;
+ }
+ .three .row div{
+	padding: 10px 0 10px 0;
+}
+ .three .row:last-child {
+	padding-top: 0!important;
+	padding: 0 10%;
+	padding-bottom: 10px;
+}
+ .three .row div a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+ .scale_img{
+ 	width: 100%;
+ 	position: relative;
+ 	overflow: hidden;
+ }
+ .scale_img p:before{
+ 	content: "";
+	width: 0;
+	height: 100%;
+	background: #000;
+	padding: 14px 18px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	opacity: 0;
+	transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+ }
+ .scale_img p:hover:before{
+		width: 100%;
+		left: 0;
+		opacity: 0.5;
+}
+ .scale_img:hover p{
+ 	transform: scale(1.08);
+ }
+

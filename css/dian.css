@@ -1,0 +1,285 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%!important;
+}
+li{
+	list-style: none;
+}
+.container {
+	width: 100%!important;
+}
+.header img{
+	vertical-align: middle;
+	width: 100%;
+}
+.header{
+	height: 180px;
+	margin: 0!important;
+	padding-top: 50px!important;
+}
+.header img{
+	width: 100%;
+}
+.header-left{
+	width: 26%;
+	position: absolute;
+	left: 10%;
+}
+.header-left li{
+	display: inline-block;
+	padding: 2%;
+	width: calc(80% / 4);
+}
+.header p{
+	width: 7%;
+	position: absolute;
+	left: 47%;
+}
+.header-right{
+	width: 30%;
+	position: absolute;
+	right: 5% ;
+}
+.header-right li{
+	display: inline-block;
+	width:calc(98% / 9);
+	margin: 0 auto;  
+    height: 140px;  
+    writing-mode: vertical-lr; 
+    font-family: "宋体";
+}
+.header-right li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #337ab7;
+}
+
+
+
+.three p{
+	text-align: left;
+}
+.three .row .you{
+	padding-left: 3%;
+}
+.three img{
+	width: 100%;
+}
+.three h4{
+	margin-top: 160px;
+	font-weight: bold;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: left;
+	padding: 13px 0;
+	font-family: 楷体;
+}
+.three .text div{
+	text-align: left;
+	padding: 20px 0!important;
+}
+.three .text p{
+	border-bottom: 1px solid black;
+}
+.three .text p em{
+	width: 20%;
+}
+.three .text p:last-child{
+	text-align: left;
+	border: none;
+	padding: 20px 0;
+}
+.three .text p em,
+.three .text p a{
+	display: inline-block;
+	padding: 0px 8px 4px 8px;
+}
+.three .text p em,
+.three .text p a
+{
+	position: relative;
+}
+.three .text p em:after,
+.three .text p a:after{
+	content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    width: calc(100vw - 50px - 2px);
+    border-left: 1px solid #231815;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid #231815;
+    height: 7px;
+}
+.three .text p a:after{
+	border-left: transparent;
+}
+.three .text p {
+	width: 100%;
+}
+.three .text p em{
+	width: 28%;
+	/*border-right: 0!important;*/
+	font-style: normal;
+}
+.three .text a{
+	color: black;
+}
+.three .text p a:nth-child(3){
+	border-left: transparent!important;
+}
+
+
+
+.count {
+	width: 65%;
+	text-align: center;
+	margin: 0 auto;
+}
+.dianheader{
+	padding-top: 80px;
+}
+.map{
+	background: url(../img/dianbanner.png) no-repeat;
+	background-size: 100% 100%;
+}
+.map .row:first-child{
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.map .row:last-child{
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+.three .row:last-child {
+	padding: 0!important;
+}
+.map .row a{
+	display: block;
+	line-height: 35px;
+}
+.map .row a:hover span{
+	display: inline-block;
+	transform:rotateZ(90deg);
+	color: black;
+	transition: all 1s ease;
+}
+.map .row a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+.big-bottom{
+	text-align: left;
+	width: 88%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	margin-top: 70px;
+}
+.bottom{
+	padding: 0 5%;
+}
+.bottom .si{
+	width:100%;
+}
+.bottom .si .top{
+	padding-left: 1.7%;
+}
+.bottom .si .row div img{
+	width: 100%;
+}
+.bottom .si .row .four{
+	background: url(../img/b4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.bottom .si .row .four{
+	padding: 40px 20px;
+	margin-top: -30px;
+	text-align: center;
+}
+.bottom .alert {
+	padding: 0;
+}
+.bottom .alert h3{
+	font-size: 25px;
+	color: #666;
+	font-family: 楷体;
+	padding-left: 1.5%;
+}
+
+.bottom .alert .si .wenzi{
+	padding: 50px 0;
+}
+.bottom .alert .si .wenzi p{
+	line-height: 24px;
+	font-family: 宋体;
+	font-size: 13px;
+}
+.bottom .alert .si .wenzi .red a{
+	color:darkred ;
+}
+.bottom .alert .si .wenzi .red a:hover{
+	text-decoration: none;
+}
+.bottom .alert .si .wenzi .red:hover{
+	opacity: .5;
+	transition: all .5s ease;
+}
+.bottom .alert .si .wenzi .red em{
+     display:inline-block;
+    width:0;
+    height:0;
+    margin-right: 5px;
+    border-width:7px 0 7px 7px;
+    border-style:solid;
+    border-color:transparent transparent transparent darkred;
+}
+.bottom .alert .si .wenzi table td{
+	border: 1px solid #666;
+	padding:  8px 27px 8px 8px;
+	font-size: 10px;
+}
+.bottom .alert .si .wenzi table tr:first-child{
+	background: #ccc;
+}
+
+
+
+.bottom .er{
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.bottom .er img:hover{;
+	opacity: .5;
+	transition: all .6s ease;
+}
+.bottom .er img{
+	display: inline-block;
+	padding: 4%;
+	width: 15%;
+}
+
+ .three .row div:hover{
+ 	opacity: .5;
+ 	transition: all 1s ease;
+ }
+ .three .row div{
+	padding: 10px 0 10px 0;
+}
+ .three .row:last-child {
+	padding-top: 0!important;
+	padding: 0 10%;
+	padding-bottom: 10px;
+}
+ .three .row div a{
+ 	text-decoration: none;
+ 	color: black;
+ }

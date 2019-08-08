@@ -1,0 +1,562 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none !important;
+	color: #000000 !important;
+}
+img{
+	vertical-align: middle;
+}
+.header{
+	margin-top: 3%;
+}
+.header img{
+	width: 100%;
+}
+.header-left{
+	width: 30%;
+	position: absolute;
+	left: 10%;
+}
+.header-left li{
+	display: inline-block;
+	padding: 2%;
+	width: calc(84% / 4);
+}
+.header p{
+	width: 6%;
+	position: absolute;
+	left: 47%;
+}
+.header-right{
+	width: 30%;
+	position: absolute;
+	right: 5% ;
+}
+.header-right li{
+	display: inline-block;
+	width:calc(98% / 8);
+	margin: 0 auto;  
+    height: 140px;  
+    writing-mode: vertical-lr; 
+    font-family: "宋体"
+
+}
+.banner{
+	margin-top: 9%;
+}
+.content{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5% 0;
+}
+.content li{
+	
+}
+.content li:hover img{
+	border-radius: 50%;
+	transition: all 1s ease;
+}
+.content span{
+	display: block;
+	width: 23%;
+}
+.content span font{
+	display: block;
+	font-family: "bookman old style";
+	line-height: 2.5em;
+}
+.content img{
+	width: 100%;
+}
+.content li{
+	width: 60%;
+}
+.content p{
+	width: 20%;
+}
+.content p img{
+	width: 100%;
+}
+.content button{
+	transition: all 1s ease;
+}
+.content button:hover{
+	background: rgb(0,0,0,0.8);
+	color: white;
+}
+.content button:hover a{
+	color: white!important;
+}
+.content button{
+	display: block;
+	background: rgba(255,255,255,0.9);
+	border: 1px solid black;
+	padding: 2% 3% !important;
+	border-radius: 4px;
+}
+@media only screen and (max-width:1000px) {
+.content li{
+	width: 70%;
+}
+.content p{
+	width: 15%;
+	margin: 6% auto;
+}
+}
+.content_one{
+	position: relative;
+}
+
+.content_one li{
+	padding-top:15%;
+}
+.content_one span{
+	position: absolute;
+	right:15%;
+	bottom: 0;
+}
+.content_one span button{
+	width: 40%;
+	padding: 0;
+}
+.content_one p{
+	position: absolute;
+	right: 10%;
+	top: 10%;
+}
+@media only screen and (max-width:1000px) {
+.content_one{
+	overflow: hidden;	
+}
+.content_one li{
+	padding-top:0%;
+	float: left;
+}
+.content_one span{
+	position: static;
+	float: right;
+}
+.content_one span button{
+	width: 40%;
+	padding: 0;
+}
+.content_one p{
+	position: static;
+}
+}
+.content_two{
+	position: relative;
+	overflow: hidden;
+}
+.content_two li{
+	float: right;
+	padding-top:10%;
+}
+.content_two span{
+	position: absolute;
+	left:10%;
+	bottom: 0;
+}
+.content_two p{
+	position: absolute;
+	left: 5%;
+	top: 20%;
+}
+@media only screen and (max-width:1000px) {
+.content_two{
+	overflow: hidden;
+}
+.content_two li{
+	float: right;
+	padding-top:0;
+}
+.content_two span{
+	position: static;
+}
+.content_two p{
+	position: static;
+}	
+}
+.content_three{
+	position: relative;
+}
+
+.content_three li{
+	padding-top:15%;
+}
+.content_three span{
+	position: absolute;
+	right:15%;
+	bottom: 0;
+}
+.content_three span button{
+	width: 40%;
+	padding: 0;
+}
+.content_three p{
+	position: absolute;
+	right: 10%;
+	top: 10%;
+}
+@media only screen and (max-width:1000px ) {
+.content_three{
+	overflow: hidden;
+}
+.content_three li{
+	padding-top:0;
+	float: left;
+}
+.content_three span{
+	position: static;
+	float: right;
+}
+.content_three span button{
+	width: 40%;
+	padding: 0;
+}
+.content_three p{
+	position: static;
+}
+}
+.content_four{
+	position: relative;
+	overflow: hidden;
+}
+.content_four li{
+	float: right;
+	padding-top:10%;
+}
+.content_four span{
+	position: absolute;
+	left:10%;
+	bottom: 0;
+}
+.content_four p{
+	position: absolute;
+	left: 5%;
+	top: 20%;
+}
+@media only screen and (max-width:1000px) {
+.content_four{
+	position: relative;
+	overflow: hidden;
+}
+.content_four li{
+	float: right;
+	padding-top:0%;
+}
+.content_four span{
+	position: static;
+}
+.content_four p{
+	position: static;
+}	
+}
+.content_five{
+	position: relative;
+}
+.content_five li{
+	padding-top:15%;
+}
+.content_five span{
+	position: absolute;
+	right:15%;
+	bottom: 0;
+}
+.content_five span button{
+	width: 40%;
+	padding: 0;
+}
+.content_five p{
+	position: absolute;
+	right: 10%;
+	top: 10%;
+}
+@media only screen and (max-width:1000px) {
+.content_five{
+	overflow: hidden;
+}
+.content_five li{
+	padding-top:0%;
+	float: left;
+}
+.content_five span{
+	position: static;
+	float: right;
+}
+.content_five span button{
+	width: 40%;
+	padding: 0;
+}
+.content_five p{
+	position:static;
+	margin: 0 auto;
+}
+}
+.bottom_first{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.bottom_left:hover .cycle img,
+.bottom_right:hover .cycle img{
+	transform-style: preserve-3d;
+	transition: all 3s ease;
+	transform: rotateZ(360deg) ;
+}
+.bottom_first span{
+	width: 65%;
+	position: absolute;
+	left: 20%;
+	overflow: hidden;
+}
+.bottom_first span font{
+	float: left;
+	margin: 0; 
+	width: calc(94% / 6); 
+    height: 160px;  
+    writing-mode: vertical-lr; 
+    padding: 0 0.5%;
+}
+.bottom_first img{
+	width: 100%;
+}
+.bottom_left{
+	position: relative;
+	width: 35%;
+	float: left;
+}
+.bottom_left p:last-child{
+	width: 35%;
+	position: absolute;
+	top: 40%;
+	left: 33%;
+}
+.bottom_right{
+	position: relative;
+	width: 35%;
+	float: left;
+	margin-left: 15%;
+}
+.bottom_right p:last-child{
+	width: 25%;
+	position: absolute;
+	top: 33%;
+	left: 37%;
+}
+.last{
+	margin-top: 45%;
+}
+.last li{
+	width: calc(92% / 4);
+	display:inline-block ;
+	padding: 0 1%;
+	height: 350px;
+	position: relative;
+}
+.last img{
+	width: 100%;
+	height: 350px;
+}
+.last span{
+	display: block;
+	height: 100%;
+	width: 91%;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 4%;
+	color: white;
+	text-align: center;
+	transition: all 1s ease;
+}
+.last span:hover{
+	background: rgb(0,0,0,0.1);	
+}
+.last span font{
+	display: inline-block;
+	margin: 0 auto;  
+    height: 140px;  
+    writing-mode: vertical-lr; 
+    font-family: "宋体";
+    margin-top: 35%;
+}
+.last span font:first-child{
+	font-size: 25px;
+}
+.news{
+	padding: 5% 3%;
+	overflow: hidden;
+}
+.news h3{
+	width: 10%;
+	float: left;
+}
+.news ul{
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid #000000;
+}
+.news a{
+	padding: 1% 5%;
+	display: block;
+	transition: all 1s ease;
+}
+.news a:first-child,
+	  a:nth-child(2){
+	border-bottom:  1px solid #000000;;
+}
+.news a:hover{
+	background: rgba(0,0,0,0.1);
+}
+.news span{
+	width: 10%;
+	display: inline-block;
+}
+.news font{
+	display: inline-block;
+}
+.news>ul>li>a>font:nth-child(1){
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.news>ul>li>a>font:last-child{
+	float: right;
+}
+.footer{
+	position: relative;
+	padding:0 4%;
+}
+.footer img{
+	width: 100%;
+}
+.footer li{
+	display: inline-block;
+}
+.bag{
+	width: 45%;
+}
+.bag li{
+	width: calc(90% / 3);
+	text-align: center;
+	margin-left: 2%;
+}
+.bag font{
+	font-size: 12px;
+}
+.bag_right{
+	width:30% ;
+	position: absolute;
+	top: 28%;
+	right: 5%;
+}
+.big-bottom{
+	margin: 0 auto;
+	border-top: 1px solid black;
+	margin-top: 70px;
+}
+.bottom{
+	padding: 0 5%;
+}
+.bottom .si{
+	width:100%;
+}
+.bottom .si .top{
+	padding-left: 1.7%;
+}
+.bottom .si .row div img{
+	width: 100%;
+}
+.bottom .si .row .four{
+	background: url(../img/b4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.bottom .si .row .four{
+	padding: 40px 20px;
+	margin-top: -30px;
+	text-align: center;
+}
+.bottom .alert {
+	padding: 0;
+}
+.bottom .alert h3{
+	font-size: 25px;
+	color: #666;
+	font-family: 楷体;
+	padding-left: 1.5%;
+}
+
+.bottom .alert .si .wenzi{
+	padding: 50px 0;
+}
+.bottom .alert .si .wenzi p{
+	line-height: 24px;
+	font-family: 宋体;
+	font-size: 13px;
+}
+.bottom .alert .si .wenzi .red a{
+	color:darkred ;
+}
+.bottom .alert .si .wenzi .red a:hover{
+	text-decoration: none;
+}
+.bottom .alert .si .wenzi .red:hover{
+	opacity: .5;
+	transition: all .5s ease;
+}
+.bottom .alert .si .wenzi .red em{
+     display:inline-block;
+    width:0;
+    height:0;
+    margin-right: 5px;
+    border-width:7px 0 7px 7px;
+    border-style:solid;
+    border-color:transparent transparent transparent darkred;
+}
+.bottom .alert .si .wenzi table td{
+	border: 1px solid #666;
+	padding:  8px 27px 8px 8px;
+	font-size: 10px;
+}
+.bottom .alert .si .wenzi table tr:first-child{
+	background: #ccc;
+}
+
+.bottom .er{
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.bottom .er img:hover{;
+	opacity: .5;
+	transition: all .6s ease;
+}
+.bottom .er img{
+	display: inline-block;
+	padding: 4%;
+}
+
+ .three .row div:hover{
+ 	opacity: .5;
+ 	transition: all 1s ease;
+ }
+ .three .row div{
+	padding: 10px 0 10px 0;
+}
+ .three .row:last-child {
+	padding-top: 0!important;
+	padding: 0 10%;
+	padding-bottom: 10px;
+}
+ .three .row div a{
+ 	text-decoration: none;
+ 	color: black;
+ }

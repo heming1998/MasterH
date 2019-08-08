@@ -1,0 +1,199 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.row {
+	margin: 0!important;
+}
+body{
+	width: 100%!important;
+}
+li{
+	list-style: none;
+}
+.container {
+	width: 100%!important;
+}
+.header img{
+	vertical-align: middle;
+	width: 100%;
+}
+.header{
+	height: 180px;
+	margin-top: 50px!important;
+}
+.header img{
+	width: 100%;
+}
+.header-left{
+	width: 26%;
+	position: absolute;
+	left: 10%;
+}
+.header-left li{
+	display: inline-block;
+	padding: 2%;
+	width: calc(80% / 4);
+}
+.header p{
+	width: 7%;
+	position: absolute;
+	left: 47%;
+}
+.header-right{
+	width: 30%;
+	position: absolute;
+	right: 5% ;
+}
+.header-right li{
+	display: inline-block;
+	width:calc(98% / 9);
+	margin: 0 auto;  
+    height: 140px;  
+    writing-mode: vertical-lr; 
+    font-family: "宋体";
+}
+.header-right li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #337ab7;
+}
+
+.count img{
+	padding: 50px 0 80px 0;
+}
+.count{
+	font-family: "宋体";
+	font-size: 15px;
+	text-align: center;
+}
+.count table{
+	margin: 0 auto;
+	width: 75%;
+}
+.count table tr:hover{
+	background: #CCCCCC;
+}
+.count table tr th{
+	text-align: center;
+	padding: 12px 0;
+	background: #f5f5f5;
+}
+.count table td{
+ padding: 12px 0;
+ width: 1%;
+}
+.count table td:first-child{
+	width: 3%;
+}
+
+
+
+.big-bottom{
+	text-align: left;
+	width: 88%;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	margin-top: 70px;
+}
+.bottom{
+	padding: 0 5%;
+}
+.bottom .si{
+	width:100%;
+}
+.bottom .si .top{
+	padding-left: 1.7%;
+}
+.bottom .si .row div img{
+	width: 100%;
+}
+.bottom .si .row .four{
+	background: url(../img/b4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.bottom .si .row .four{
+	padding: 40px 20px;
+	margin-top: -30px;
+	text-align: center;
+}
+.bottom .alert {
+	padding: 0;
+}
+.bottom .alert h3{
+	font-size: 25px;
+	color: #666;
+	font-family: 楷体;
+	padding-left: 1.5%;
+}
+
+.bottom .alert .si .wenzi{
+	padding: 50px 0;
+}
+.bottom .alert .si .wenzi p{
+	line-height: 24px;
+	font-family: 宋体;
+	font-size: 13px;
+}
+.bottom .alert .si .wenzi .red a{
+	color:darkred ;
+}
+.bottom .alert .si .wenzi .red a:hover{
+	text-decoration: none;
+}
+.bottom .alert .si .wenzi .red:hover{
+	opacity: .5;
+	transition: all .5s ease;
+}
+.bottom .alert .si .wenzi .red em{
+     display:inline-block;
+    width:0;
+    height:0;
+    margin-right: 5px;
+    border-width:7px 0 7px 7px;
+    border-style:solid;
+    border-color:transparent transparent transparent darkred;
+}
+.bottom .alert .si .wenzi table td{
+	border: 1px solid #666;
+	padding:  8px 27px 8px 8px;
+	font-size: 10px;
+}
+.bottom .alert .si .wenzi table tr:first-child{
+	background: #ccc;
+}
+
+
+
+.bottom .er{
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.bottom .er img:hover{;
+	opacity: .5;
+	transition: all .6s ease;
+}
+.bottom .er img{
+	display: inline-block;
+	padding: 4%;
+	width: 15%;
+}
+
+ .three .row div:hover{
+ 	opacity: .5;
+ 	transition: all 1s ease;
+ }
+ .three .row div{
+	padding: 10px 0 10px 0;
+}
+ .three .row:last-child {
+	padding-top: 0!important;
+	padding: 0 10%;
+	padding-bottom: 10px;
+}
+ .three .row div a{
+ 	text-decoration: none;
+ 	color: black;
+ }
