@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+		<script src="js/jquery-3.3.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<style type="text/css">
+		.box {
+			position: relative;
+			perspective: 1000px;
+			left: 50%;
+		}
+		
+		.box .box-img {
+			transform: rotateY(0);
+			transition: all 0.50s ease-in-out 0s;
+		}
+		
+		.box:hover .box-img {
+			transform: rotateY(-90deg);
+		}
+		
+		.box .box-img img {
+			width: 100%;
+			height: auto;
+		}
+		
+		.box .box-content {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 60px 20px;
+			text-align: center;
+			background: rgba(0, 0, 0, 0.7);
+			transform: rotateY(90deg);
+			transition: all 0.50s ease-in-out 0s;
+		}
+		
+		.box:hover .box-content {
+			transform: rotateY(0);
+		}
+		
+		.box:hover .isShow {
+			display: none;
+		}
+		
+		.box .title {
+			font-size: 20px;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		
+		.box .description {
+			font-size: 14px;
+			line-height: 24px;
+			color: white;
+		}
+		
+		.box .title:after,
+		.box .description:after {
+			content: "";
+			width: 80%;
+			display: block;
+			border-bottom: 1px solid #fff;
+			margin: 15px auto;
+		}
+		
+		.box .social-links {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		.box .social-links li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		
+		.box .social-links li a {
+			font-size: 20px;
+			color: #a6a6a6;
+		}
+		
+		.box .social-links li a:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+		
+		.box .box-txt {
+			color: white;
+		}
+	</style>
+
+	<body>
+<div class="row">
+	<div class="col-md-6 col-xs-8">
+		<div class="box">
+			<div class="box-img">
+				<img src="jpan/img/count3.jpg" alt="">
+			</div>
+			<h3 class="h3"><a href=""></a></h3>
+			<div class="box-content">
+				<h4 class="title">工艺1 /碾米/浸渍</h4>
+				<p class="description">
+					<small>每1000日元+税的身体价格</small>
+					<p>&nbsp</p>
+					<p class="box-txt">用胚胎切割约1％的表面。由于风味将从研磨时起飞，因此仅使用的量是内部碾米。</br>
+						保护米饭的味道是一种重要的承诺，可以在口中轻柔地散播。</p>
+				</p>
+				<ul class="social-links">
+					<li>
+						<a href="#" class="glyphicon glyphicon-qq"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weibo"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weixin"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="isShow">
+				<h4>工艺1 /碾米/浸渍</h4>
+				<small>kisetsunofuroshiki</small>
+				<p>每1000日元+税的身体价格</p>
+				<p>&nbsp</p>
+				<p>用胚胎切割约1％的表面。由于风味将从研磨时起飞，因此仅使用的量是内部碾米。</br>
+						保护米饭的味道是一种重要的承诺，可以在口中轻柔地散播。</p>
+			</div>
+		</div>
+	</div>
+</div>
+		<div class="row">
+			<div class="col-md-6 col-xs-8">
+				<div class="box">
+					<div class="box-img">
+						<img src="jpan/img/count3.jpg" alt="">
+					</div>
+					<h3><a href=""></a></h3>
+					<div class="box-content">
+						<h4 class="title">过程2 /蒸汽</h4>
+						<p class="description">
+							<small>每1000日元+税的身体价格</small>
+							<p>&nbsp</p>
+							<p class="box-txt">浸泡在糯米生长的富山水中的糯米再次在富山水中蒸熟。<br /> 
+							蒸木材对米饭有轻柔的触感，可去除多余的水分。</p>
+						</p>
+						<ul class="social-links">
+							<li>
+								<a href="#" class="glyphicon glyphicon-qq"></a>
+							</li>
+							<li>
+								<a href="#" class="glyphicon glyphicon-weibo"></a>
+							</li>
+							<li>
+								<a href="#" class="glyphicon glyphicon-weixin"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="isShow">
+						<h4>过程2 /蒸汽</h4>
+						<p>
+							<small>每1000日元+税的身体价格</small>
+							<p>&nbsp</p>
+							<p>浸泡在糯米生长的富山水中的糯米再次在富山水中蒸熟。<br /> 
+							蒸木材对米饭有轻柔的触感，可去除多余的水分。</p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-xs-8 ">
+				<div class="box">
+					<div class="box-img">
+						<img src="jpan/img/count3.jpg" alt="">
+					</div>
+					<h3><a href=""></a></h3>
+					<div class="box-content">
+						<h4 class="title">工艺3 / Mochitsuki成型</h4>
+						<p class="description">
+							<small>每1000日元+税的身体价格</small>
+							<p>&nbsp</p>
+							<p class="box-txt">它应该没有额外的力量下降。煮沸是对抗力量，不会破坏米的纤维。给筷子的质地和脆度。将热米饼热轧并放入托伯（类型）中。<br /> 
+							确定纹理和决定纹理并决定确定量并通过一次性决定是一项重要技能。
+							</p>
+						</p>
+						<ul class="social-links">
+							<li>
+								<a href="#" class="glyphicon glyphicon-qq"></a>
+							</li>
+							<li>
+								<a href="#" class="glyphicon glyphicon-weibo"></a>
+							</li>
+							<li>
+								<a href="#" class="glyphicon glyphicon-weixin"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="isShow">
+						<h4>工艺3 / Mochitsuki成型</h4>
+						<p>
+							<small>每1000日元+税的身体价格</small>
+							<p>&nbsp</p>
+							<p>它应该没有额外的力量下降。煮沸是对抗力量，不会破坏米的纤维。给筷子的质地和脆度。将热米饼热轧并放入托伯（类型）中。<br /> 
+							确定纹理和决定纹理并决定确定量并通过一次性决定是一项重要技能。
+							</p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+	<div class="col-md-6 col-xs-8">
+		<div class="box">
+			<div class="box-img">
+				<img src="jpan/img/count3.jpg" alt="">
+			</div>
+			<div class="box-content">
+				<h4 class="title">过程4 /切割和干燥</h4>
+				<p class="description">
+					<small>每1000日元+税的身体价格</small>
+					<p>&nbsp</p>
+					<p class="box-txt">>模压粥冷却并切割各种各样。</br>
+						通过切割（切断）精确到几毫米的高度，在保持良好的锋利刀片的情况下，在鲈鱼的表面上产生独特的光泽。<br />
+						随着时间的推移缓慢而坚固地干燥，不要过度加热或刮风。当干燥适度地干燥时
+						与米糕和米糕不同，产生具有不同味道的面团。</p>
+				</p>
+				<ul class="social-links">
+					<li>
+						<a href="#" class="glyphicon glyphicon-qq"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weibo"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weixin"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="isShow">
+				<h4>过程4 /切割和干燥</h4>
+				<p>
+					<small>每1000日元+税的身体价格</small>
+					<p>&nbsp</p>
+					<p>>模压粥冷却并切割各种各样。</br>
+						通过切割（切断）精确到几毫米的高度，在保持良好的锋利刀片的情况下，在鲈鱼的表面上产生独特的光泽。<br />
+						随着时间的推移缓慢而坚固地干燥，不要过度加热或刮风。当干燥适度地干燥时
+						与米糕和米糕不同，产生具有不同味道的面团。</p>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	
+	<div class="col-md-6 col-xs-8">
+		<div class="box">
+			<div class="box-img">
+				<img src="jpan/img/count3.jpg" alt="">
+			</div>
+			<div class="box-content">
+				<h4 class="title">过程5 /焙烧</h4>
+				<p class="description">
+					<small>每1000日元+税的身体价格</small>
+					<p>&nbsp</p>
+					<p class="box-txt">具有足够手部空间的面团从其特征变成各种盆。缓慢地将剩余的热量加热并将其烘烤，直到它稳固上升时变成深蓝色。</br>
+						织物，火和工匠之间的安静对话如下。</p>
+				</p>
+				<ul class="social-links">
+					<li>
+						<a href="#" class="glyphicon glyphicon-qq"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weibo"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weixin"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="isShow">
+					<h4>过程5 /焙烧</h4>
+					<p>
+					<small>每1000日元+税的身体价格</small>
+					<p>&nbsp</p>
+					<p>具有足够手部空间的面团从其特征变成各种盆。缓慢地将剩余的热量加热并将其烘烤，直到它稳固上升时变成深蓝色。</br>
+						织物，火和工匠之间的安静对话如下。</p>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6 col-xs-8">
+		<div class="box">
+			<div class="box-img">
+				<img src="jpan/img/count3.jpg" alt="">
+			</div>
+			<div class="box-content">
+				
+				<ul class="social-links">
+					<li>
+						<a href="#" class="glyphicon glyphicon-qq"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weibo"></a>
+					</li>
+					<li>
+						<a href="#" class="glyphicon glyphicon-weixin"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="isShow">
+				<h4>富山的自然祝福</h4>
+				<p>
+					<small>每1000日元+税的身体价格</small>
+					<p>&nbsp</p>
+					<p>我们使用的新大正糯米是在富山县特别生产的糯米。很难种植</br>
+						也不可能说人均回归的收获效率也很高。但是，清水产的大米的味道，土地肥沃，日照充足，将会非常深刻。<br />
+						我认为这种美味的柿子味道非常丰富，而且不逊于年糕的强烈的Koshi，可以作为独特的柿子口味品尝。</p>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+	</body>
+
+</html>
